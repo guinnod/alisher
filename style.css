@@ -31,3 +31,28 @@
   z-index: 1;
   /* Помещает градиент поверх изображения */
 }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-child {
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-grandchild {
+    width: auto !important;
+  }
+
+  #menu-list a {
+    display: none !important;
+  }
+
+  #menu-list #burger {
+    display: block !important;
+  }
+}
