@@ -390,8 +390,9 @@
                     style="
                       width: 79px;
                       height: 35px;
-                      color: #ffffff;
-                      background-color: #004f44;
+                      color: #004f44;
+                      border-color: #004f44;
+                      border: 2px #004f44 solid;
                       align-items: center;
                       font-size: 16px;
                       display: flex;
@@ -745,19 +746,50 @@
         </div>
       </section>
 
-      <!--<section style="display: flex;">
-          <div style="display: flex; align-items: center; width: 100vw; gap: 10px; justify-content: space-between; padding-left: 5vw; padding-right: 5vw;">
-            <div>
-              <img style="width: 59px; height: 59px;" src="Group 44.png">
-            </div>
-            <div>
-              <input type="text" placeholder="Search flowers..." style="border: #044f44 2px; height: 59px;">
-            </div>
-            <div>
-              <img style="width: 59px; height: 59px;" src="Group 45.png">
-            </div>
+      <section
+        style="
+          display: flex;
+          padding: 5vw;
+          justify-content: center;
+          align-items: center;
+          background-color: #f3fffc;
+          margin-top: 5vw;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            width: 100vw;
+            gap: 10px;
+            padding-left: 5vw;
+            padding-right: 5vw;
+          "
+        >
+          <img style="width: 59px; height: 59px" src="Group 44.png" />
+
+          <div
+            style="
+              flex-grow: 2;
+              overflow: hidden;
+              border-right: 2px #044f44 solid;
+            "
+          >
+            <input
+              type="text"
+              placeholder="Search flowers..."
+              style="
+                border: 2px #044f44 solid;
+                width: 100%;
+                outline: none;
+                padding: 20px;
+              "
+            />
           </div>
-        </section>-->
+
+          <img style="width: 59px; height: 59px" src="Group 45.png" />
+        </div>
+      </section>
 
       <section>
         <div>
